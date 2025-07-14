@@ -1,0 +1,16 @@
+[project]
+name = "protoconverter"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "grpcio>=1.73.1",
+    "grpcio-tools>=1.73.1",
+    "protobuf>=6.31.1",
+    "pyqt6>=6.9.1",
+]
+
+[[tool.uv.index]]
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+default = true
